@@ -54,7 +54,7 @@ def user_login():
     else:
         db_user_login.commit()
         db_user_login.close()
-        
+    
         return render_template('login.html')
 
 #AQUI PREPARÉ EL REGISTRO
